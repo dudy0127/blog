@@ -1,0 +1,17 @@
+site_name: Dudy's blog 
+
+theme: material
+
+extra:
+  font: false
+  logo:
+    icon: 'polymer'
+  palette:
+    primary: 'cyan'
+    accent: 'blue'
+  feature:
+    tabs: true
+
+markdown_extensions:
+  - codehilite:
+      linenums: true
