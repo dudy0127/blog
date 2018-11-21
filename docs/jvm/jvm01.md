@@ -66,7 +66,7 @@ https://github.com/abel533/mapper-cast-exception  也是和大牛的一次接触
 
 虚拟机栈的栈元素是栈帧，当有一个方法被调用时，代表这个方法的栈帧入栈；当这个方法返回时，其栈帧出栈
 
-![img](C:\Users\admin\Desktop\blog\image\vm-stack.png)
+![img](../../image/vm-stack.png)
 
 http://www.importnew.com/26842.html/vm_stack
 
@@ -74,13 +74,10 @@ http://www.importnew.com/26842.html
 
 ### 堆(heap)
 
+一个JVM实例只存在一个堆内存，堆内存的大小是可以调节的。类加载器读取了类文件后，需要把类、方法、常变量放到堆内存中，保存所有引用类型的真实信息，以方便执行器执行.
 
+引用一张图
 
+![image-20180927184211834](../../image/jvm02.png)
 
-
-
-
-
-
-
-
+来自: https://www.cnblogs.com/fairjm/p/jvm_memory_note.html
